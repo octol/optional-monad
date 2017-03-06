@@ -75,6 +75,8 @@ TODO
 - Currently hardcoded for `boost::optional`. Make it work with `std::optional`
   out-of-the-box.
 - Add examples to README.
+- SFINAE checks for the function objects. This is needed for `operator<<`
+  implementation.
 
 Jon Haggblad <jon@haeggblad.com>
 
