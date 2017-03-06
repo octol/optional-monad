@@ -40,7 +40,7 @@ with
 The `with` function is sort of a special case for when you want to mutate the
 wrapped value in-place.
 
-=== Variant 1
+### Variant 1
 
 The first overload takes the `optional<T>` by reference and mutates it.
 
@@ -52,7 +52,7 @@ with :: optional T& -> (T -> void) -> void
 void with(optional<T>& opt, const Func& func);
 ```
 
-=== Variant 2
+### Variant 2
 
 The second overload takes the `optional<T>` by rvalue reference and moves it to
 the return value.
