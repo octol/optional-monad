@@ -2,7 +2,8 @@ optional-monad
 ==============
 
 A minimal C++ library providing a few functions to be able to work with
-boost/std::optional as a monad.
+`boost::optional` as a monad. The idea is to add `std::optional` support in the
+very near future.
 
 fmap
 ----
@@ -80,4 +81,4 @@ TODO
 
 Jon Haggblad <jon@haeggblad.com>
 
-Last update: 05 March 2017
+Last update: 06 March 2017
